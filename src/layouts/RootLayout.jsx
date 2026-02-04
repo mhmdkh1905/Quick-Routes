@@ -6,13 +6,13 @@ export default function RootLayout() {
   return (
     <div>
       <li>
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
       </li>
       <li>
         <a href="/about">About</a>
       </li>
       <li>
-        <a href="/profile">Profile</a>
+        <a href="/profile/1">Profile 1</a>
       </li>
       <Outlet />
     </div>
